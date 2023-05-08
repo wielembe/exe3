@@ -6,6 +6,40 @@ body {
     /*Font-size 16px is used most often. */
 }
 
+.section {
+    padding-top: 94px;
+}
+.container {
+    width: 1200px;
+    margin-left: 215px;
+    margin-right: 215px;
+    justify-content: center;
+}
+
+.menu-block {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    justify-content: space-between;
+
+    color: #fff;
+}
+
+.nav-menu {
+    display: flex;
+    width: 281px;
+    justify-content: space-between;
+    margin-right: 340px;
+}
+
+.contact-up {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    font-weight: 500;
+}
+
 button:hover,
 button:focus {
     background-color: #fff;
@@ -20,8 +54,13 @@ li {
     list-style: none;
 }
 
-.menu-background-color {
-    color: #fff;
+.main-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 94px;
 }
 .list-primary-item {
     text-decoration: none;
@@ -47,6 +86,7 @@ a:focus {
     font-weight: 700;
     line-height: 1.19;
     color: #2196f3;
+    margin-right: 97px;
 }
 
 h1 {
@@ -54,14 +94,29 @@ h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    margin: 0 auto;
+    width: 696px;
+
+    text-align: center;
+    padding-top: 200px;
+    letter-spacing: 0.06em;
 }
 
+h3 {
+    font-size: 14px;
+
+    font-weight: 700;
+}
 .big-button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
     color: #fff;
     background-color: #2196f3;
     font-weight: 700;
     line-height: 1.875;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .big-button:hover,
@@ -72,12 +127,22 @@ h1 {
 }
 .banner {
     background-color: #2f303a;
+    height: 600px;
 }
 
+.highlights {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    padding: 0;
+    gap: 30px;
+    padding-bottom: 74px;
+}
 .highlight {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
+    flex-basis: calc((100% - 90px) / 4);
 }
 
 .highlight-desc {
@@ -85,12 +150,15 @@ h1 {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    margin: 0;
+    text-align: left;
 }
 
 h2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.17;
+    text-align: center;
 }
 
 img {
@@ -98,27 +166,42 @@ img {
     height: 294px;
 }
 
+.our-team-section {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 0px;
+}
 .person-pic {
     width: 270px;
     height: 260px;
 }
 
 .person-space {
+    background-color: #fff;
     width: 270px;
     height: 368px;
 }
 
-.our-team-section {
+.full-team-section {
     background-color: #f5f4fa;
+    padding-bottom: 94px;
 }
+
 .name {
+    display: flex;
+    justify-content: center;
     font-weight: 500;
     line-height: 1.17;
+    padding-top: 30px;
 }
 
 .function {
+    display: flex;
+    justify-content: center;
     color: #757575;
     line-height: 1.17;
+    padding-top: 10px;
 }
 
 address {

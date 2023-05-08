@@ -11,21 +11,29 @@
         />
     </head>
     <body>
-        <header class="menu-background-color">
-            <a class="logo" href="">WebStudio</a>
-            <nav>
-                <ul class="nav-menu">
-                    <li><a class="menu" href="./index.html">Studio</a></li>
-                    <li>
-                        <a class="menu" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li><a class="menu" href="">Contacts</a></li>
-                </ul>
-            </nav>
-            <a class="contact" href="mailto:info@devstutio.com"
-                >info@devstutio.com</a
-            >
-            <a class="contact" href="phone:+121277224150">+1 212-772-24150</a>
+        <header class="container">
+            <div class="menu-block">
+                <a class="logo" href="">WebStudio</a>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a class="menu" href="./index.html">Studio</a></li>
+                        <li>
+                            <a class="menu" href="./portfolio.html"
+                                >Portfolio</a
+                            >
+                        </li>
+                        <li><a class="menu" href="">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="contact-up">
+                    <a class="contact" href="mailto:info@devstutio.com"
+                        >info@devstutio.com</a
+                    >
+                    <a class="contact" href="phone:+121277224150"
+                        >+1 212-772-24150</a
+                    >
+                </div>
+            </div>
         </header>
 
         <main>
@@ -40,10 +48,10 @@
                 </button>
             </div>
 
-            <div class="highlights">
-                <ul>
+            <div class="container section">
+                <ul class="highlights">
                     <li class="highlight">
-                        ATTENTION TO DETAILS
+                        <h3>ATTENTION TO DETAILS</h3>
                         <span class="highlight-desc">
                             We go into all the details and processes of your
                             business to develop a customized solution.</span
@@ -51,7 +59,7 @@
                     </li>
 
                     <li class="highlight">
-                        PUNCTUALITY
+                        <h3>PUNCTUALITY</h3>
                         <span class="highlight-desc">
                             With us, you can feel safe and secure. An important
                             principle of the company: respect your time and
@@ -60,7 +68,7 @@
                     </li>
 
                     <li class="highlight">
-                        Planning
+                        <h3>PLANNING</h3>
                         <span class="highlight-desc">
                             You will be able to observe and participate in every
                             phase of solution development and
@@ -69,7 +77,7 @@
                     </li>
 
                     <li class="highlight">
-                        MODERN TECHNOLOGIES
+                        <h3>MODERN TECHNOLOGIES</h3>
 
                         <span class="highlight-desc"
                             >We use innovative tools to solve assigned tasks.
@@ -78,10 +86,10 @@
                     </li>
                 </ul>
             </div>
-            <div class="what-we-do">
+            <div class="container">
                 <h2>What we do</h2>
                 <!--potential links to be added to the pictures next. I removed width and height parameters below as they are defined in css-->
-                <ul>
+                <ul class="main-images">
                     <li>
                         <img
                             src="images/box1.jpg"
@@ -100,46 +108,48 @@
                 </ul>
             </div>
 
-            <div class="team">
-                <h2>Our Team</h2>
-                <ul class="our-team-section">
-                    <li class="person-space">
-                        <img
-                            class="person-pic"
-                            src="images/img4.jpg"
-                            alt="Christopher Walker photo"
-                        />
-                        <span class="name">Christopher Walker</span>
-                        <span class="function">Product Designer</span>
-                    </li>
-                    <li class="person-space">
-                        <img
-                            class="person-pic"
-                            src="images/img1.jpg"
-                            alt="Kylie Evans photo"
-                        />
-                        <span class="name">Kylie Evans</span>
-                        <span class="function">Frontend Developer</span>
-                    </li>
-                    <li class="person-space">
-                        <img
-                            class="person-pic"
-                            src="images/img2.jpg"
-                            alt="Ryan Harris photo"
-                        />
-                        <span class="name">Ryan Harris</span>
-                        <span class="function">Marketing</span>
-                    </li>
-                    <li class="person-space">
-                        <img
-                            class="person-pic"
-                            src="images/img3.jpg"
-                            alt="Tyler Moore photo"
-                        />
-                        <span class="name">Tyler Moore</span>
-                        <span class="function">UI Designer</span>
-                    </li>
-                </ul>
+            <div class="full-team-section section">
+                <div class="container">
+                    <h2>Our Team</h2>
+                    <ul class="our-team-section">
+                        <li class="person-space">
+                            <img
+                                class="person-pic"
+                                src="images/img4.jpg"
+                                alt="Christopher Walker photo"
+                            />
+                            <span class="name">Christopher Walker</span>
+                            <span class="function">Product Designer</span>
+                        </li>
+                        <li class="person-space">
+                            <img
+                                class="person-pic"
+                                src="images/img1.jpg"
+                                alt="Kylie Evans photo"
+                            />
+                            <span class="name">Kylie Evans</span>
+                            <span class="function">Frontend Developer</span>
+                        </li>
+                        <li class="person-space">
+                            <img
+                                class="person-pic"
+                                src="images/img2.jpg"
+                                alt="Ryan Harris photo"
+                            />
+                            <span class="name">Ryan Harris</span>
+                            <span class="function">Marketing</span>
+                        </li>
+                        <li class="person-space">
+                            <img
+                                class="person-pic"
+                                src="images/img3.jpg"
+                                alt="Tyler Moore photo"
+                            />
+                            <span class="name">Tyler Moore</span>
+                            <span class="function">UI Designer</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </main>
 
