@@ -289,6 +289,7 @@ button {
 .offers {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 .single-offer {
     margin: 0 auto;
